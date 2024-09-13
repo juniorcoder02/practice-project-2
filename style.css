@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+main {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(248, 244, 244);
+}
+main #top {
+  width: 100%;
+  height: 65%;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 1rem;
+  gap: 1.3rem;
+}
+nav a {
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 20px;
+}
+nav a span {
+  color: white;
+  background-color: black;
+  font: 1.3rem;
+  padding: 0.6rem;
+  border-radius: 50%;
+}
+nav a:hover {
+  opacity: 1;
+}
+#center {
+  padding: 1.3rem;
+}
+#center h1 {
+  font-size: 3.7rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+#center-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#center-1 #left {
+  font-size: 1.3rem;
+  font-weight: 500px;
+  line-height: 1.7rem;
+  padding: 20px 0;
+}
+#center-1 #right {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  width: 300px;
+}
+.right-elem {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+  padding: 10px 0;
+}
+.right-elem a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.right-elem span {
+  opacity: 0;
+}
+.right-elem:hover span {
+  opacity: 1;
+}
+#bottom {
+  height: 35%;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1601054704854-1a2e79dda4d3?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: 0 45%;
+}
